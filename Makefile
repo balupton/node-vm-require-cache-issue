@@ -10,5 +10,6 @@ test:
 	make compile
 	node ./out/bug.js
 	node ./out/fix.js
+	node ./out/csfix.js
 
 .PHONY: dev compile test

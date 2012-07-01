@@ -1,5 +1,5 @@
 # Overwrite our coffee-script object
-coffee = require('coffee-script')
+coffee = require?('coffee-script') or {}
 for own key, value of coffee
 	coffee[key] = -> 'sucker'
 
