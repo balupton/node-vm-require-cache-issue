@@ -1,0 +1,7 @@
+# Overwrite our coffee-script object
+coffee = require('coffee-script')
+for own key, value of coffee
+	coffee[key] = -> 'sucker'
+
+# Return some normal data
+{a:1}

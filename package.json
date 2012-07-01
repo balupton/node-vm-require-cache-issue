@@ -1,0 +1,8 @@
+{
+	"name": "node-vm-require-cache-issue",
+	"version": "0.1",
+	"private": true,
+	"dependencies": {
+		"coffee-script": "1.3.x"
+	}
+}
